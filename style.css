@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+html {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 13px;
+}
+
+/*main wrapper*/
+#wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*main container*/
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1.45fr;
+  background-color: white;
+  border-radius: 10px;
+  height: 38%;
+  width: 43%;
+  display: grid;
+  background-image: url(/images/drawers.jpg); /*main image*/
+  background-size: contain; /*fit to size with respect to starting point*/
+  background-repeat: no-repeat;
+}
+
+/*text area*/
+.text-container {
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.text-item header {
+  font-size: 13pt;
+  font-weight: 500;
+  margin: 6% 0% 0 8%;
+  padding-left: 1%;
+  padding-top: 2%;
+}
+.text-item header p {
+  word-spacing: 2px;
+  letter-spacing: 0.2px;
+}
+.text-item p {
+  padding-right: 10%;
+}
+.text-item article {
+  color: hsl(217, 19%, 35%);
+  margin: 4% 0 0 8%;
+  padding-left: 1%;
+  font-size: 9pt;
+  line-height: 1.8;
+}
+
+/*details area*/
+.details-container {
+  display: flex;
+  flex: auto;
+  width: 84%;
+  justify-content: space-between;
+  margin: 0 0 0 8%;
+  align-items: center;
+}
+
+/*avatar and name container*/
+.avatar-name {
+  display: flex;
+  width: 54%;
+  justify-content: space-between;
+}
+
+/*Avatar*/
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+/*name and date container*/
+.name-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.date-item p {
+  margin-top: 2px;
+  color: hsl(217, 19%, 35%);
+  padding-top: 1%;
+  font-size: 9pt;
+}
+
+/* share icon*/
+.icon {
+  background-color: hsl(210, 46%, 95%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-position: center center; /*center the background image*/
+  background-repeat: no-repeat;
+/*share icon as background image*/
+  background-image: url(/images/icon-share.svg); 
+}
