@@ -31,7 +31,7 @@ body {
   height: 38%;
   width: 43%;
   display: grid;
-  background-image: url(https://github.com/riccdigital/article-preview-component/tree/main/images/drawers.jpg); /*main image*/
+  background-image: url(https://riccdigital.github.io/article-preview-component/tree/main/images/drawers.jpg); /*main image*/
   background-size: contain; /*fit to size with respect to starting point*/
   background-repeat: no-repeat;
 }
@@ -114,5 +114,5 @@ body {
   background-position: center center; /*center the background image*/
   background-repeat: no-repeat;
 /*share icon as background image*/
-  background-image: url(https://github.com/riccdigital/article-preview-component/tree/main/images/icon-share.svg); 
+  background-image: url(https://riccdigital.github.io/article-preview-component/tree/main/images/icon-share.svg); 
 }
